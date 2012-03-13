@@ -1,0 +1,20 @@
+■概要
+Android NDK 速度比較プログラム。
+単純な画像編集処理をJavaとNDKで速度比較するものです。
+
+■使用方法
+Androidプロジェクトとなっているので、そのままEclipseから
+インポートしてください。
+
+■NDKビルド方法
+プロジェクトホームディレクトリで ndk-build を実行してください。
+
+$ pwd
+/hoge/android_ndk_ImageEffect
+$ ndk-build
+
+※ ndk-buildの実行には Android NDK のインストールが必要です
+
+■ライセンス
+修正BSDライセンスとします。ご自由にお使いください。
+
